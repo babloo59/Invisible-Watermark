@@ -67,9 +67,6 @@ Install the required libraries:
 ```bash
 pip install torch torchvision pillow scikit-image numpy
 ▶️ Run the App
-bash
-Copy
-Edit
 python main.py
 GUI will open. Follow the prompts to select images and run the pipeline.
 
