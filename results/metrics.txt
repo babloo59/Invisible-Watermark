@@ -1,0 +1,42 @@
+[Watermarking Metrics]
+Cover vs Watermarked:  PSNR=32.28 dB, SSIM=0.9712
+Watermark vs Recovered: PSNR=31.75 dB, SSIM=0.9239
+
+🔹 Original (net.head.weight):
+ [[ 0.13148399 -0.04129098 -0.07659563]
+ [-0.0445343  -0.0120472   0.11445328]
+ [ 0.04112683 -0.01361929 -0.02883954]]
+
+🔸 Encrypted (XORed, appears random):
+ [[-3.1612795e-21 -1.5486185e+09 -7.1412313e+25]
+ [ 5.5749706e+10 -1.2471000e-24  5.7290087e-34]
+ [ 9.9790753e-09  8.8903350e+05  5.6008936e-20]]
+
+✅ Recovered:
+ [[ 0.13148399 -0.04129098 -0.07659563]
+ [-0.0445343  -0.0120472   0.11445328]
+ [ 0.04112683 -0.01361929 -0.02883954]]
+[Weight Recovery Metrics]
+Original vs Recovered:  PSNR=inf dB, SSIM=1.0000
+Original vs Encrypted:  PSNR=-inf dB, SSIM=nan
+
+[Watermarking Metrics]
+Cover vs Watermarked:  PSNR=32.70 dB, SSIM=0.9765
+Watermark vs Recovered: PSNR=33.19 dB, SSIM=0.9398
+
+[Watermarking Metrics]
+Cover vs Watermarked:  PSNR=31.78 dB, SSIM=0.9581
+Watermark vs Recovered: PSNR=25.39 dB, SSIM=0.8761
+
+[Weight Recovery Metrics]
+Original vs Recovered:  PSNR=inf dB, SSIM=1.0000
+Original vs Encrypted:  PSNR=9.54 dB, SSIM=0.0001
+
+[Watermarking Metrics]
+Cover vs Watermarked:  PSNR=36.82 dB, SSIM=0.9872
+Watermark vs Recovered: PSNR=35.22 dB, SSIM=0.9773
+
+[Weight Recovery Metrics]
+Original vs Recovered:  PSNR=inf dB, SSIM=1.0000
+Original vs Encrypted:  PSNR=9.54 dB, SSIM=0.0001
+
