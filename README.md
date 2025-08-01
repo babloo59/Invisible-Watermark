@@ -42,8 +42,6 @@ Secure your digital assets using deep learning! This project implements an **AI-
 ---
 
 ## 📁 Project Structure
-
-.
 ├── main.py # Tkinter GUI & pipeline controller<br/>
 ├── model.py # RDN-based encoder & decoder<br/>
 ├── utils.py # Image saving and metric computations<br/>
